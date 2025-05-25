@@ -40,6 +40,6 @@ dbConnect();
 
 app.use("/", userRouter);
 app.use("/", formRouter);
-app.use("/", messageRouter);
+//app.use("/", messageRouter);
 
 app.listen(3000);

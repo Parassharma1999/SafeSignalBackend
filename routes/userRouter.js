@@ -6,7 +6,7 @@ import jwt from "jsonwebtoken";
 import { configDotenv } from "dotenv";
 import { victimForm, volunteerForm } from "../db/UserModel.js";
 import { requestModel } from "../db/requestModel.js";
-import sendMessage from "../utils/watsapp.js";
+//import sendMessage from "../utils/watsapp.js";
 import {
   forgetPassword,
   verifyForgotPassword,
@@ -15,7 +15,6 @@ import {
 import nodemailer from "nodemailer";
 import AdminMiddleware from "../utils/adminMiddleware.js";
 import mongoose from "mongoose";
-import { error } from "qrcode-terminal";
 import { Admin } from "mongodb";
 import { NotificationModel } from "../db/notificationModel.js";
 
@@ -369,12 +368,12 @@ userRouter.post("/emergency-request", AdminMiddleware, async (req, res) => {
       html: mailBody,
     });
 
-    const watsapp = await sendMessage(to, message);
+    //const watsapp = await sendMessage(to, message);
 
     let requestType = [];
-    if (watsapp) {
-      requestType.push("watsapp");
-    }
+    // if (watsapp) {
+    //   requestType.push("watsapp");
+    // }
     if (emailSend) {
       requestType.push("email");
     }
@@ -384,7 +383,7 @@ userRouter.post("/emergency-request", AdminMiddleware, async (req, res) => {
       message: `Victim ${req.user.name} has raised a help request to you `,
     });
 
-    if (watsapp || emailSend || notify) {
+    if (emailSend || notify) {
       const emailReq = await requestModel.create({
         requestDetails: {
           name: message.name,

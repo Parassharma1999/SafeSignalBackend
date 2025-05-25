@@ -1,0 +1,16 @@
+[0525/134934.359:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0525/134934.360:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0525/134934.360:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[0525/134934.360:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[0525/134934.360:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[0525/134934.360:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[0525/134934.360:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[0525/134934.361:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[0525/134934.361:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0525/134934.361:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0525/134934.368:WARNING:backend_impl.cc(1816)] Destroying invalid entry.
+[0525/134934.369:WARNING:backend_impl.cc(1816)] Destroying invalid entry.
+[0525/134934.369:WARNING:backend_impl.cc(1816)] Destroying invalid entry.
+[0525/134934.371:WARNING:backend_impl.cc(1816)] Destroying invalid entry.
+[0525/134934.373:WARNING:backend_impl.cc(1816)] Destroying invalid entry.
+[0525/134934.376:WARNING:backend_impl.cc(1816)] Destroying invalid entry.

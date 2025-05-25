@@ -1,8 +1,7 @@
 import express from "express";
 import { configDotenv } from "dotenv";
-import twilio from "twilio";
 import axios from "axios";
-import sendMessage from "../utils/watsapp.js";
+// import sendMessage from "../utils/watsapp.js";
 import { requestModel } from "../db/requestModel.js";
 
 configDotenv();
